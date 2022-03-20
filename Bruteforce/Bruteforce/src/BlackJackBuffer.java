@@ -39,7 +39,7 @@ public class BlackJackBuffer {
 			}
 		}
 		
-		bw.write(answer);
+		bw.write(String.valueOf(answer));
 		bw.flush();
 		bw.close();
 	}
